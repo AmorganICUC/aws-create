@@ -1,0 +1,11 @@
+Comapny:ICUC
+Date:August 12th, 2016
+Email:andrew.morgan@icuc.social
+
+## Script must be ran from a machine which has aws_cli tool package installed.This script accepts 8 values.
+
+## <image-id> <count> <instance-type> <key-name> <security-group> <subnet-id> <availability-Zone> <name_of_server_how_it_should_be_in_aws_console>
+
+##Below is an example of how the script will look when it is ran, all values should be present and if not an error will be thrown.
+## aws-create ami-10eb2070 3 t2.micro icuc-aws-hosts-production sg-b512f5d3 subnet-a88f36cc us-west-2b testingServer
+

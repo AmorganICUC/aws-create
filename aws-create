@@ -3,9 +3,6 @@
 use warnings;
 use strict;
 
-### ####### aws-create <image-id> <count> <instance-type> <key-name> <security-group> <subnet-id> <availability-Zone> <name of server>
-##example:  aws-create ami-10eb2070 3 t2.micro icuc-aws-hosts-production sg-b512f5d3 subnet-a88f36cc us-west-2b testingServer 
-
 my ($availzone,$name,$line,@arin,$image,$count,$instance,$key,$sg,$subnet);
 
 my $iteration_number = 1;
@@ -42,5 +39,5 @@ chomp(@ARGV);
 	}
 		else
 		{
-		print"The script accepts 7 values \n";
+		print"The script accepts 8 values \n";
 		}
